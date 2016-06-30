@@ -1,0 +1,104 @@
+body {
+    background-color: #333;
+    color: #333;
+    font-weight: 400;
+}
+
+#headline {
+    text-align: center;
+    color: #fff;
+    margin: 10% auto 15px auto;  /* A <percentage> relative to the width of the containing block.*/
+}
+
+.quote-box {
+    border-radius: 10px;
+    width: 70%;
+    margin: auto auto;
+    padding: 40px 50px;
+    background-color: #fff;
+}
+
+.quote-box .quote-text {
+    text-align: center;
+    height: auto;
+    font-weight: 500;
+    font-size: 1.75em;
+}
+
+.quote-box .quote-text i {
+    font-size: 1.0em;
+    margin-right: 0.4em;
+}
+
+.quote-box .quote-author {
+    height: auto;
+    padding-top: 20px;
+    font-size: 1em;
+    text-align: right;
+}
+
+.quote-box .buttons {
+    margin: auto;
+    display: block;
+    /* this overflow property is a hack to wrap two floating divs */
+    /* another hack is to add a clear div after the floating elements <div style="display: block; clear: both;"></div>*/
+    overflow: hidden;
+}
+
+.quote-box .buttons .button {
+    height: 38px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #333;
+    font-size: 0.85em;
+    padding: 8px 18px 6px 18px;
+    margin-top: 30px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+/* mobile view */
+@media (max-width: 767px) {
+
+    /* make the quote box larger */
+    .quote-box {
+        width: 90%;
+    }
+}
+
+.quote-box .buttons .button:hover {
+    opacity: 0.8;
+}
+
+.quote-box .buttons .button#tweet-quote, .quote-box .buttons .button#crazy-quote {
+    float: left;
+    padding: 0px;
+    padding-top: 8px;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 5px;
+    width: 40px;
+}
+
+.quote-box .buttons .button#new-quote {
+    float: right;
+}
+
+.footer {
+    text-align: center;
+    margin: 15px auto 30px auto;
+    font-size: 1em;
+    color: #fff;
+}
+
+.footer a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer a:hover {
+    font-weight: 900;
+}

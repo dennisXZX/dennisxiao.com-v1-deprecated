@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    background: #000;
+}
+
+/* full screen video */
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background: url('images/beginning.jpg') no-repeat;
+    background-size: cover;
+}
+
+#jane {
+    font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    padding: 2rem;
+    width: 500px;
+    margin: 60px auto 0 auto;
+    font-size: 1.7rem;
+}
+
+h1 {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    margin-top: 0;
+    letter-spacing: .3rem;
+}
+
+#jane button {
+    display: block;
+    width: 80%;
+    padding: .4rem;
+    border: none;
+    margin: 1rem auto;
+    font-size: 2rem;
+    background: rgba(255,255,255,0.23);
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    -webkit-transition: .3s background;
+    transition: .3s background;
+}
+
+#jane button:hover {
+    background: rgba(255,255,255,0.33);
+}
+
+p a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    background:rgba(0,0,0,0.5);
+    padding: .5rem;
+    -webkit-transition: .6s background;
+    transition: .6s background;
+}
+
+p a:hover{
+    background:rgba(0,0,0,0.9);
+}
+
+/* use to hide the panel */
+.hiddenPane {
+    opacity: 0;
+}
+
+/* override Bootstrap link style */
+a {
+    color: #ffe5fc;
+    text-decoration: none;
+}
+
+a:focus, a:hover {
+    color: #ffe5fc;
+    font-weight: bold;
+    text-decoration: underline;
+}

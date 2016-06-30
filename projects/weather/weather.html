@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" type="text/css" href="../../css/animate.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+
+    <!-- Weather CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/1.3.2/css/weather-icons.min.css"/>
+
+    <!-- CSS by Dennis -->
+    <link rel="stylesheet" type="text/css" href="./mystyle.css">
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+    <!-- Angular -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+            integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+            crossorigin="anonymous"></script>
+
+    <!-- JS by Dennis -->
+    <script src="./myscripts.js"></script>
+
+    <title>Dennis Weather Report</title>
+
+</head>
+
+<body ng-app="Weather">
+
+    <div class="container" ng-controller="MainCtrl">
+
+        <div class="row">
+
+            <header class="col-xs-12 text-center">
+                <h1>De<i class="wi wi-lightning"></i><i class="wi wi-lightning"></i>is</h1>
+                <h1 style="display: inline; position: relative;">Weather
+                    <span style="position: absolute; top: 8px; left: 212px; font-size: 0.2em;">unofficial*</span>
+                </h1>
+            </header>
+
+            <div class="col-xs-12 text-center">
+
+                <!-- weather status -->
+                <div class="status">
+                    <p>{{"You're @ " + Data.city}}</p>
+                    <p>{{Data.temperature}} &#176;<span class="temp" ng-click="Data.sys()">{{Data.unit}}</span> {{ "& " + Data.description}} </p>
+                </div>
+
+                <!-- all the weather icons hidden by default -->
+                <div class="all-icon">
+
+                    <div class="icon hide drizzle">
+                        <div class="cloud"></div>
+                        <div class="sun">
+                            <div class="rays"></div>
+                        </div>
+                        <div class="rain"></div>
+                    </div>
+
+                    <div class="icon hide thunderstorm">
+                        <div class="cloud"></div>
+                        <div class="lightning">
+                            <div class="bolt"></div>
+                            <div class="bolt"></div>
+                        </div>
+                    </div>
+
+                    <div class="icon hide clouds">
+                        <div class="cloud"></div>
+                        <div class="cloud"></div>
+                    </div>
+
+                    <div class="icon hide snow">
+                        <div class="cloud"></div>
+                        <div class="snow">
+                            <div class="flake"></div>
+                            <div class="flake"></div>
+                        </div>
+                    </div>
+
+                    <div class="icon hide clear">
+                        <div class="sun">
+                            <div class="rays"></div>
+                        </div>
+                    </div>
+
+                    <div class="icon hide rainy">
+                        <div class="cloud"></div>
+                        <div class="rain"></div>
+                    </div>
+
+                </div>
+
+                <div class="status">
+                    <p>{{Data.comment}}</p>
+                </div>
+
+            </div>
+
+            <div class="center-block" style="width:220px;">
+                <input type="text" class="form-control" id="cityName" ng-model="cityname" ng-keypress="goSearch($event)" aria-describedby="basic-addon3" placeholder="Take a look at another city...">
+                <br />
+                <button class="center-block" style="background: #000;" ng-click="searchCity()">Search</button>
+            </div>
+
+        </div> <!-- end of row -->
+        <p class="text-center" style="margin-top:90px;">by <a href="http://www.dennisxiao.com/index.php" target="_blank">Dennis Xiao</a>, weather icons from <a href="http://codepen.io/joshbader/full/EjXgqr/" target="_blank">joshbader</a></p>
+
+    </div> <!-- end of container -->
+
+</body>
+
+</html>
