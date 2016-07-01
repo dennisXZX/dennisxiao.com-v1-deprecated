@@ -74,7 +74,13 @@ body {
 
 /* portfolio page */
 .portfolioItem {
-	margin-right: 20px;
+	width: 100%;
+    padding-bottom: 15px;
+}
+
+.gadgetName {
+    font-size: 1.2em;
+    font-weight: bold;
 }
 
 /* footer */
@@ -93,14 +99,6 @@ body {
 .navbar-toggle .icon-bar {
     width: 28px;
     height: 3px;
-}
-
-/* group the profile icons better in smaller screens */
-@media screen and (max-width: 450px) {
-    /* group portfolio icons in small screens, each row places four portfolio icons */
-    .portfolioItem {
-        width: 25%;
-    }
 }
 
 /* phones */
@@ -133,6 +131,11 @@ body {
         margin-bottom: 15px;   
     }
 
+    /* adjust the portfolio item arrangement */
+    .portfolioItem {
+        width: 33.33%;
+    }
+
 }
 
 /* desktop */
@@ -151,5 +154,11 @@ body {
         -webkit-transform: rotate(8deg); /* Chrome, Safari, Opera */        
         transform: rotate(8deg);        
     }
+
+    /* adjust the portfolio item arrangement */
+    .portfolioItem {
+        width: 25%;
+    }
+
 
 }
