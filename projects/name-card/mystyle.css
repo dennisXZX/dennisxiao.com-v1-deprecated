@@ -31,7 +31,7 @@ body {
 /* image container */
 .imageContainer {
     position: relative;
-    width: 60%;
+    width: 70%;
     height: 100%;
 }
 
@@ -56,10 +56,11 @@ body {
 
 /* card container */
 .cardContainer {
-    width: 40%;
+    width: 30%;
     height:100%;
     padding-left: 40px;
     padding-right: 40px;
+    overflow-y: hidden;
 }
 .title {
     font-size: 40px;
@@ -118,4 +119,20 @@ body {
     position: absolute;
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+
+/* hide the copy on mobile */
+@media (max-width: 600px) {
+    .info-card {
+        width: 95%;
+    }
+
+    .imageContainer {
+        width: 100%;
+    }
+
+    .cardContainer {
+        width: 0;
+        padding: 0;
+    }
 }

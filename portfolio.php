@@ -43,32 +43,37 @@
 
 						<div class="portfolioItem">
 							<div><a href="./projects/weather/weather.html" target="_blank">Local Weather Report</a></div>
-							<div>HTML, CSS, Angular 1 </div>
+							<div>Bootstrap, Angular 1 </div>
 						</div>	
 
 						<div class="portfolioItem">
 							<div><a href="./projects/quote/quoteoftheday.html" target="_blank">Random Quote</a></div>
-							<div>HTML, CSS, JQuery</div>
+							<div>Bootstrap, Animate.CSS, JQuery</div>
 						</div>		
 						
 						<div class="portfolioItem">
 							<div><a href="./projects/porfolio/dennisxiao.html" target="_blank">Portfolio Page</a></div>
-							<div>HTML, CSS, JQuery</div>
+							<div>Bootstrap, ScrollSpy, Animate.CSS, JQuery, jQuery Easing</div>
 						</div>							
 
 						<div class="portfolioItem">
 							<div><a href="./projects/fixed-bg-ldp/fixed-bg-ldp.html" target="_blank">Fixed Background Page</a></div>
-							<div>HTML, CSS</div>
+							<div>Bootstrap, CSS</div>
 						</div>	
 
 						<div class="portfolioItem">
 							<div><a href="./projects/jane/jane.html" target="_blank">Full-screen Video Player</a></div>
-							<div>HTML, CSS, Javascript</div>
+							<div>Bootstrap, CSS, Javascript</div>
 						</div>
 
 						<div class="portfolioItem">
 							<div><a href="./projects/name-card/name-card.html" target="_blank">Calling Card</a></div>
-							<div>HTML, CSS Animation</div>
+							<div>Bootstrap, CSS Animation</div>
+						</div>
+
+						<div class="portfolioItem">
+							<div><a href="./projects/csu-home/homepage.html" target="_blank">CSU Homepage</a></div>
+							<div>Bootstrap, Owl Carousel</div>
 						</div>
 
 					</div> <!-- end of portfolio container -->

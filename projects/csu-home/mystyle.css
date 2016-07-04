@@ -1,0 +1,474 @@
+/* general setting */
+.desktopHidden {
+    display: inline-flex;
+}
+
+.desktopDisplayed {
+    display: none;
+}
+
+.tabletDisplayed {
+    display: none;
+}
+
+::selection {
+    background: #e05206;
+    color: white;
+}
+
+/* top button nav */
+#buttonNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    height: 45px;
+    color: white;
+    background-color: #ececec;
+    border-bottom: 3px solid #dedede;
+}
+
+.navButton {
+    background-color: #e31b23;
+    border-bottom: 3px solid #c0161d;
+    padding: 10px 20px;
+    margin-right:1px;
+    opacity: 1;
+    cursor: pointer;
+ }
+
+.navButton:hover {
+    background-color: #c0161d;
+}
+
+/* logo section */
+#logoSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#csulogo {
+    padding: 30px 0 30px 15px;
+}
+
+#searchInput {
+    height: 40px;
+    width: 200px;
+    background-color: #ececec;
+    border: 0;
+}
+
+#searchButton {
+    color: white;
+    height: 40px;
+    width:100px;
+    background-color: #e31b23;
+    border: 0;
+}
+
+#searchButton:hover {
+    background-color: #c0161d;
+}
+
+/* main nav */
+/*ul.nav li.dropdown:hover > ul.dropdown-menu {*/
+    /*display: block;*/
+/*}*/
+
+.navbar {
+    border-radius: 0px;
+    margin-bottom: 0;
+}
+
+#mainNav .nav>li {
+    border-left: 1px solid white;
+}
+
+#mainNav .nav>li:last-of-type {
+    border-right: 1px solid white;
+}
+
+.nav>li>a {
+    padding-right:45px;
+    padding-left:45px;
+}
+
+.dropdown-menu li {
+    border-bottom: 1px solid gray;
+}
+
+.dropdown-menu li:last-of-type {
+    border-bottom: none;
+}
+
+.dropdown-menu>li>a {
+    padding: 12px 20px;
+}
+
+#mainNav li:hover {
+    background-color: #3d3d3d;
+}
+
+/* owl carousel */
+#carousel{
+    position: relative;
+    margin-top: 0;
+}
+
+#carousel .item {
+    position: relative;
+}
+
+#carousel .item img{
+    display: block;
+    width: 100%;
+}
+
+.carouselCopy {
+    position: absolute;
+    width: 100%;
+    top: 20%;
+    left: 10%;
+}
+
+.carouselTitle {
+    font-size: 2em;
+    text-shadow: 2px 2px 2px rgb(140, 140, 140);
+    color: white;
+}
+
+.carouselDivider {
+    border: 0;
+    border-bottom: 5px solid crimson;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    width: 10%;
+}
+
+.carouselDescription {
+    color: white;
+    font-size: 1.2em;
+    width: 25%;
+    padding: 15px ;
+    background-color: rgba(29, 52, 81, 0.24);
+}
+
+/* news section */
+#newsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    /* center the content in a flex container */
+    width: 95%;
+    align-items: center;
+    justify-content: center;
+    /* center the flex container itself */
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.newsBox {
+    width: 95%;
+    position: relative;
+    padding-top: 10px;
+}
+
+.newsTitle {
+    height: 40px;
+    line-height: 40px;
+    background-color: #3d3d3d;
+    color: white;
+    padding-left: 15px;
+    margin-bottom: 1px;
+}
+
+.newsImage {
+    width: 100%;
+}
+
+.newsSubtitle {
+    height: 30px;
+    line-height: 30px;
+    background-color: #e05206;
+    color: #fff;
+    padding-left: 15px;
+}
+
+.newsDescription {
+    background-color: #f6f6f6;
+    color: #626262;
+    padding: 15px;
+    padding-right: 50px;
+    border-bottom: 3px solid #dedede;
+}
+
+.newsButton{
+    position: absolute;
+    right:0;
+    bottom:0;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    line-height: 30px;
+    font-size: 3em;
+    background-color: #dedede;
+    padding: 10px;
+}
+
+.newsButton:hover {
+    background-color: #eaeaea;
+    cursor: pointer;
+}
+
+.newsButton a{
+    text-decoration: none;
+    color: #626262;
+}
+
+/* bottom menu section */
+#bottomMenuWrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+    width:100%;
+    background-color: #f6f6f6;
+    margin-top: 25px;
+    padding-bottom: 20px;
+}
+
+#bottomMenu {
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    padding-left: 15px;
+}
+
+.bottomMenuItem {
+    width: 100%;
+    padding: 15px 0 0 0;
+}
+
+.menuTitle {
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.menuTitle a, .menuContent a {
+    color: black;
+}
+
+.menuContent {
+    margin-bottom: 5px;
+    font-size: .9em;
+}
+
+/* footer section */
+#footerWrapper {
+    background-color: #e3deda;
+    width: 100%;
+    padding: 0 15px;
+}
+
+#footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.footerItem {
+    width: 100%;
+    display: flex;
+    align-content: flex-start;
+    padding-top: 15px;
+}
+
+.footerItem:first-of-type {
+    padding-top: 30px;
+}
+
+.socialIcon {
+    padding-left: 10px;
+}
+
+.socialIcon:first-of-type {
+    padding-left: 0;
+    padding-top: 10px
+}
+
+.socialIcon a:hover {
+    opacity: .8;
+}
+
+#bottomLink {
+    flex-direction: column;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+#bottomLink div {
+    padding-top: 10px;
+}
+
+#bottomLink a {
+    color: #e31b23;
+}
+
+/*
+ search icon expands
+ news section in three columns
+ bottom menu expands
+ bottom section in two columns
+ */
+@media screen and (min-width: 761px) {
+
+    /* center the content of main nav */
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+
+    #logoSection {
+        padding-right: 60px;
+    }
+
+    /* expand the news section into 3 columns */
+    .newsBox {
+        width: 27%;
+        margin-right: 15px;
+    }
+
+    .newsBox:last-of-type {
+        margin-right: 0;
+    }
+
+    /* show the bottom menu items */
+    .tabletDisplayed {
+        display: inline-flex;
+    }
+
+    /* expand the bottom menu into 5 columns */
+    .bottomMenuItem {
+        width: 19%;
+    }
+
+    /* expand the footer section into 2 columns */
+    .footerItem {
+        width: 45%;
+    }
+
+    #bottomLink {
+        text-align: right;
+    }
+
+    .menuTitle {
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+
+    /* increase the carousel title */
+    .carouselTitle {
+        font-size: 3em;
+    }
+}
+
+/*
+menu expands
+*/
+@media screen and (min-width: 991px) {
+
+    #buttonNav {
+        padding-right: 100px;
+    }
+
+    .desktopHidden {
+        display: none;
+    }
+
+    .desktopDisplayed {
+        display: block;
+    }
+
+    /* expand the news section into 3 columns */
+    .newsBox {
+        width: 32%;
+    }
+
+    #bottomMenu {
+        padding-left: 0;
+    }
+}
+
+/* override the Bootstrap navbar breakpoint, so the nav only expands on screen lager than 1200px */
+@media (max-width: 1200px) {
+
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+    .navbar-nav .open .dropdown-menu {
+        position: static;
+        float: none;
+        width: auto;
+        margin-top: 0;
+        background-color: transparent;
+        border: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+    #mainNav .nav>li {
+        border-right: 1px solid white;
+    }
+
+    .dropdown-menu>li>a {
+        color: #fff;
+    }
+
+}
+
+/* change the nav bar from mouse click event to mouse hover event */
+@media (min-width: 1201px) {
+    .dropdown:hover>.dropdown-menu {
+        display: block;
+    }
+}
