@@ -1,0 +1,86 @@
+/* background gradient */
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+
+    background: linear-gradient(88deg, rgba(161, 168, 163, 0.43), #011f49);
+    background-size: 500% 500%;
+    -webkit-animation: bgAnimate 20s ease infinite;
+    -moz-animation: bgAnimate 4s ease infinite;
+    -o-animation: bgAnimate 4s ease infinite;
+    animation: bgAnimate 20s ease infinite;
+}
+
+/* background gradient animation */
+@-webkit-keyframes bgAnimate {
+    /* background-position: x% y% */
+    0%{background-position: 0% 50%}
+    50%{background-position: 100% 50%}
+    100%{background-position: 0% 50%}
+}
+@-moz-keyframes bgAnimate {
+    0%{background-position: 0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position: 0% 50%}
+}
+@-o-keyframes bgAnimate {
+    0%{background-position: 0% 50%}
+    50%{background-position: 100% 50%}
+    100%{background-position: 0% 50%}
+}
+@keyframes bgAnimate {
+    0%{background-position: 0% 50%}
+    50%{background-position: 100% 50%}
+    100%{background-position: 0% 50%}
+}
+
+/* gradient container */
+.gradientContainer {
+    /* set the background image and gradient */
+    background-color: #450002;
+    /* background: radial-gradient(shape size at position, start-color, ..., last-color); */
+    background-image: url('images/network.svg'), radial-gradient(circle at center, #ff8300 0%, rgba(0, 0, 0, 0) 100%);
+    background-size: 120%, 50%;
+    animation: gradientAnimate 5s linear infinite;
+
+    /* center the div */
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    margin: auto;
+
+    /* styling the container */
+    height: 300px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.8);
+    border: 2px solid #263645;
+    border-right: 0;
+    border-left: 0;
+}
+
+/* image gradient animation */
+@keyframes gradientAnimate {
+    /* background-position: xPos yPos */
+    0% {background-position: 0 0, 0 0;}
+
+    100% {background-position: 0 0, 100% 0;}
+}
+
+/* footer */
+#footer {
+    color: #450002;
+    position: relative;
+    top: 110%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footerItem {
+    width: 100%;
+    text-align: center;
+}
+
+#footer a {
+    color: #450002;
+    font-weight: bold;
+}

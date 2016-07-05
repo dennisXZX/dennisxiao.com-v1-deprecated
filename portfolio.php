@@ -76,6 +76,11 @@
 							<div>Bootstrap, Owl Carousel</div>
 						</div>
 
+						<div class="portfolioItem">
+							<div><a href="./projects/gradient/gradient.html" target="_blank">Gradient Magic</a></div>
+							<div>CSS Gradient</div>
+						</div>
+
 					</div> <!-- end of portfolio container -->
 
 				</div>
