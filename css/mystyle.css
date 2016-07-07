@@ -1,6 +1,6 @@
 /* address the fixed-top nav overlapping issue */
 body {
-    padding-top: 120px; 
+    padding-top: 120px;
 }
 
 /* nav bar */
@@ -65,12 +65,12 @@ body {
 }
 
 .profileImage {
-    margin-left: 0px;       
+    margin-left: 0px;
     padding: 10px;
     border: 1px solid #BFBFBF;
     background-color: white;
-    box-shadow: 7px 7px 5px #aaaaaa;    
-}  
+    box-shadow: 7px 7px 5px #aaaaaa;
+}
 
 /* portfolio page */
 .portfolioItem {
@@ -105,7 +105,7 @@ body {
 @media screen and (max-width: 767px) {
 
     /* adjust the profile image on phone */
-    .profileImage {              
+    .profileImage {
         margin-bottom: 15px;
         margin-top: 15px;
     }
@@ -123,12 +123,12 @@ body {
     /* narrow the content section on larger screen */
     #sectionContainer {
         width: 75%;
-    }    
+    }
 
     /* adjust the profile image on larger screen */
     .profileImage {
         margin-left: 30px;
-        margin-bottom: 15px;   
+        margin-bottom: 15px;
     }
 
     /* adjust the portfolio item arrangement */
@@ -149,10 +149,10 @@ body {
     }
 
     /* rotate my image in About page in desktop */
-    .profileImage {     
+    .profileImage {
         -ms-transform: rotate(8deg); /* IE 9 */
-        -webkit-transform: rotate(8deg); /* Chrome, Safari, Opera */        
-        transform: rotate(8deg);        
+        -webkit-transform: rotate(8deg); /* Chrome, Safari, Opera */
+        transform: rotate(8deg);
     }
 
     /* adjust the portfolio item arrangement */

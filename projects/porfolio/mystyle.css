@@ -4,7 +4,6 @@ body {
     padding: 0;
     color: #666;
     background: #888;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 20px;
 }
 
@@ -40,15 +39,14 @@ a:hover {
     cursor: pointer;
 }
 
-/* show the little bug on desktop */
-@media (min-width:1200px) {
+/* show the little bug only on desktop */
+@media (min-width: 1200px) {
     #littleBug {
         visibility: visible;
     }
 }
 
 /* flex containers */
-#fixedTopNav .container,
 main header,
 #portfolio .grid,
 #contact > div, /* select all divs where the parent is #contact */
@@ -66,7 +64,6 @@ footer #footer-above {
     border-color: #337ab7;
 }
 
-/* override the style of one of the flex containers */
 #fixedTopNav .container {
     width: 95%;
     max-width: 1024px;
@@ -125,9 +122,10 @@ main header {
     align-content: space-around;
 }
 
-@media (min-width: 1023px) {
-    main header {
-        padding: 50px 30px;
+/* place the nav bar to the right on larger screen, on smaller screen the nav bar is placed below the hamburger button */
+@media (min-width: 767px) {
+    #fixedTopNav .container {
+        display: flex;
     }
 }
 
@@ -162,7 +160,7 @@ main section {
 }
 
 main section#contact > div {
-    margin: 0px auto;
+    margin: 0 auto;
 }
 
 main section#contact > div > div {
@@ -278,7 +276,7 @@ footer {
     color: #fff;
     background-color: #aaa;
     text-align: center;
-    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2);
 }
 
 footer h3 {
@@ -305,7 +303,7 @@ footer h3 {
 }
 
 #footer-below {
-    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
     padding: 25px 0;
     background-color: #337ab7;
     text-align: center;
@@ -423,6 +421,19 @@ hr.star-dark:after {
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
     color: #FFF;
     background-color: transparent;
-    box-shadow: 0px 3px 2px 1px rgba(0, 0, 0, 0.1); /* box-shadow: h-shadow y-shadow blur spread */
+    box-shadow: 0 3px 2px 1px rgba(0, 0, 0, 0.1); /* box-shadow: h-shadow y-shadow blur spread */
 }
+
+.navbar-default .navbar-collapse, .navbar-default {
+    background-color: #337ab7;
+}
+
+.navbar-toggle {
+    margin-top: 25px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #91a5a8;
+}
+
 /* @override Bootstrap CSS ends */
