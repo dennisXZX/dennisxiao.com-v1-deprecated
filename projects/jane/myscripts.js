@@ -14,8 +14,8 @@ $(document).ready(function(){
         // play the movie
         vid.play();
 
-        // update the play button text
-        playButton.innerHTML = "Play Again? 🚙 🚕 🚐";
+        // update the panel text
+        janePane.innerHTML = "<p>由于网络问题。。。所以Jane姐的farewell视频无法顺利播放（中国连接我的服务器不太顺畅，实在影响观感。。。），我只好请临时演员大灰兔同学登场客串一下，敬请包涵。🚙 🚕 🚐</p><p>SORRY EVERYONE! 想看Jane姐视频的请出门转左找Annie Lin ^_^</p>";
 
     })
 

@@ -76,7 +76,7 @@
 				<a href="https://filezilla-project.org/" target="_blank" title="Free FTP solution">Filezilla</a> |
 				<a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/" target="_blank" title="Free SSH and Telnet client">PuTTY</a> |
 
-				<h4 class="subHeadline">Mobile Development</h4>
+				<h4 class="subHeadline">Android Development</h4>
 				<div class="category">IDE</div>				
 				<a href="https://developer.android.com/studio/index.html" target="_blank">Android Studio</a> |
 				<a href="https://eclipse.org/downloads/" target="_blank"><strike>Eclipse</strike></a> |

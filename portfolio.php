@@ -37,7 +37,7 @@
 
 					<h1 class="pageHeadline">Gadget Collection <i class="fa fa-gamepad" aria-hidden="true"></i></h1>
 
-					<p class="aboutContent" style="margin-bottom: 20px;">All the gadgets that I made during my journey to become a better web developer.</p>
+					<p class="aboutContent" style="margin-bottom: 20px;">All the gadgets that I made during my journey to become a better web & app developer.</p>
 
 					<div class="flexContainer">
 
