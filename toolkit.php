@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-    	<title>About Dennis Xiao</title>
+    	<title>Dennis Xiao's Toolkit</title>
 
 		<!-- include all the css and js files -->
 		<?php include 'headFiles.php';?>
@@ -19,6 +19,7 @@
 
 				<h1 class="pageHeadline">My ToolKit = <i class="fa fa-laptop" aria-hidden="true"></i> + <i class="fa fa-mobile" aria-hidden="true"></i> + <i class="fa fa-headphones" aria-hidden="true"></i> + <i class="fa fa-music" aria-hidden="true"></i> + <i class="fa fa-coffee" aria-hidden="true"></i></h1>
 
+				<!-- Web Development Toolkit -->
 				<h4 class="subHeadline">Web Development</h4>
 
 				<div class="category">IDE</div>
@@ -42,9 +43,7 @@
 
 				<div class="category">CSS Library</div>
 				<a href="https://daneden.github.io/animate.css/" target="_blank">Animated.css</a> |		
-				<a href="https://necolas.github.io/normalize.css/" target="_blank">Normalize.css</a> |		
-				<a href="http://fontawesome.io/" target="_blank">Font Awesome</a> |
-				<a href="https://erikflowers.github.io/weather-icons/" target="_blank">Weather Icons</a> |			
+				<a href="https://necolas.github.io/normalize.css/" target="_blank">Normalize.css</a> |				
 
 				<div class="category">Javascript Library</div>	
 				<a href="https://jquery.com/" target="_blank">JQuery</a> |								
@@ -64,6 +63,11 @@
 				<a href="http://placehold.it/" target="_blank">Placehold.it</a> |		
 				<a href="https://pixlr.com/editor/" target="_blank">Pixlr</a> |
 
+				<div class="category">Icon</div>	
+				<a href="http://fontawesome.io/" target="_blank">Font Awesome</a> |				
+				<a href="http://emojione.com/" target="_blank">EmojiOne</a> |
+				<a href="https://erikflowers.github.io/weather-icons/" target="_blank">Weather Icons</a> |				
+
 				<div class="category">MISC.</div>					
 				<a href="https://cdnjs.com/" target="_blank" title="Cloud Libraries">cdnjs</a> |
 				<a href="https://git-scm.com/" target="_blank" title="Version Control System">Git</a> |
@@ -76,6 +80,7 @@
 				<a href="https://filezilla-project.org/" target="_blank" title="Free FTP solution">Filezilla</a> |
 				<a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/" target="_blank" title="Free SSH and Telnet client">PuTTY</a> |
 
+				<!-- Android Development Toolkit -->
 				<h4 class="subHeadline">Android Development</h4>
 				<div class="category">IDE</div>				
 				<a href="https://developer.android.com/studio/index.html" target="_blank">Android Studio</a> |
@@ -84,6 +89,9 @@
 				<a href="http://www.jcreator.com/" target="_blank"><strike>JCreator</strike></a> |
 				<a href="http://phonegap.com/" target="_blank"><strike>PhoneGap</strike></a> |
 				</ul>
+
+				<div class="category">MISC.</div>					
+				<a href="https://romannurik.github.io/AndroidAssetStudio/index.html" target="_blank" title="Easy way to make icons for your app">Android Asset Studio</a> |
 	
 			</div>
 			

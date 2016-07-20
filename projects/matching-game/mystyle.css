@@ -1,0 +1,27 @@
+img {
+    position: absolute;
+}
+
+body {
+    text-align: center;
+}
+
+#gameContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#leftSide {
+    position: relative;
+    /*background-color: #91a5a8;*/
+    width: 600px;
+    height: 480px;
+    border-right:2px solid black;
+}
+
+#rightSide {
+    position: relative;
+    /*background-color: #337ab7;*/
+    width: 600px;
+    height: 480px;
+}

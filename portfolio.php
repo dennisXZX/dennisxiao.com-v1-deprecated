@@ -44,7 +44,12 @@
 						<div class="portfolioItem">
 							<div><a href="./projects/weather/weather.html" target="_blank">Local Weather Report</a></div>
 							<div>Bootstrap, Angular 1 </div>
-						</div>	
+						</div>
+
+						<div class="portfolioItem">
+							<div><a href="./projects/matching-game/matching-game.html" target="_blank">Matching Game</a></div>
+							<div>JQuery, DOM Manipulation</div>
+						</div>
 
 						<div class="portfolioItem">
 							<div><a href="./projects/quote/quoteoftheday.html" target="_blank">Random Quote</a></div>
