@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    background-color: #757b83;
+}
+
+#container {
+    height: 400px;
+    width: 40%;
+    border: 6px solid rgb(50, 50, 50);
+    border-radius: 1%;
+    margin: 0 auto;
+    margin-top: 7%;
+}
+
+#screen {
+    width: 100%;
+    text-align: right;
+    height: 100px;
+    border-radius: 1%;
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: #616161;
+    text-overflow: ellipsis;
+}
+
+#result {
+    float: right;
+    margin-top: 3%;
+    margin-right:7%;
+    font-size: 3.5em;
+    color: #f2f2f2;
+}
+
+button {
+    height: 60px;
+    width: 25%;
+    font-size: 1.85em;
+    background-color: #f2f2f2;
+    color: #5d5d5d;
+    margin-left: 0px;
+    margin-right: 0px;
+    float: left;
+}

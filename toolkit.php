@@ -35,27 +35,26 @@
 					<a href="https://github.com/kairyou/SublimeTmpl" target="_blank">SublimeTmpl</a> ) |					
 
 				<a href="https://atom.io/" target="_blank"><strike>Atom</strike></a> |				
+				<a href="http://brackets.io/" target="_blank"><strike>Brackets</strike></a> |
 				<a href="https://notepad-plus-plus.org/download/v6.9.2.html" target="_blank"><strike>Notepad++</strike></a> |
 
-				<div class="category">Framework</div>	
-				<a href="http://getbootstrap.com/" target="_blank">Bootstrap</a> |	
-				<a href="https://angularjs.org/" target="_blank">AngularJS</a> |	
+				<div class="category">Framework</div>
+				<a href="http://getbootstrap.com/" target="_blank">Bootstrap</a> |
+				<a href="https://angularjs.org/" target="_blank">AngularJS</a>
+                     ( <a href="https://karma-runner.github.io/1.0/index.html" target="_blank" title="AngularJS unit testing">Karma</a>,
+                     <a href="http://www.protractortest.org/" target="_blank" title="AngularJS end-to-end testing">Protractor</a>
+                     ) |
 
-				<div class="category">CSS Library</div>
-				<a href="https://daneden.github.io/animate.css/" target="_blank">Animated.css</a> |		
-				<a href="https://necolas.github.io/normalize.css/" target="_blank">Normalize.css</a> |				
+				<div class="category">CSS</div>
+				<a href="https://daneden.github.io/animate.css/" target="_blank" title="CSS animation">Animated.css</a> |
+				<a href="https://necolas.github.io/normalize.css/" target="_blank" title="CSS reset">Normalize.css</a> |
+				<a href="http://sass-lang.com/" target="_blank" title="CSS pre-processor">SASS</a> |
 
 				<div class="category">Javascript Library</div>	
 				<a href="https://jquery.com/" target="_blank">JQuery</a> |								
-				<a href="https://jqueryui.com/" target="_blank">JQuery UI</a> |	
-				<a href="https://nodejs.org/" target="_blank">Node.js</a> 
-					( <a href="https://www.npmjs.com/" target="_blank">NPM</a>, 
-					<a href="https://bower.io/" target="_blank">Bower</a>, 
-					<a href="https://github.com/indexzero/http-server" target="_blank">http-server</a>, 
-					<a href="https://karma-runner.github.io/0.13/index.html" target="_blank">Karma</a>, 
-					<a href="https://github.com/angular/protractor" target="_blank">Protractor</a>,
-					<a href="http://prismjs.com/" target="_blank" title="syntax highlighter">Prism.js</a>
-					) |
+				<a href="https://jqueryui.com/" target="_blank"><strike>JQuery UI</strike></a> |
+				<a href="http://prismjs.com/" target="_blank" title="syntax highlighter">Prism.js</a> |
+				<a href="https://github.com/indexzero/http-server" target="_blank">http-server</a> |
 
 				<div class="category">Mockup</div>	
 				<a href="http://www.axure.com/" target="_blank">Axure</a> |
@@ -65,10 +64,14 @@
 
 				<div class="category">Icon</div>	
 				<a href="http://fontawesome.io/" target="_blank">Font Awesome</a> |				
+				<a href="https://lipis.github.io/bootstrap-social/" target="_blank">Bootstrap-social</a> |
 				<a href="http://emojione.com/" target="_blank">EmojiOne</a> |
 				<a href="https://erikflowers.github.io/weather-icons/" target="_blank">Weather Icons</a> |				
 
-				<div class="category">MISC.</div>					
+				<div class="category">MISC.</div>
+                <a href="https://nodejs.org/" target="_blank" title="a runtime environment for developing server-side Web applications">Node.js</a> |
+                <a href="https://www.npmjs.com/" target="_blank" title="package manager for node programs">NPM</a> |
+                <a href="https://bower.io/" target="_blank" title="package manager for the web">Bower</a> |
 				<a href="https://cdnjs.com/" target="_blank" title="Cloud Libraries">cdnjs</a> |
 				<a href="https://git-scm.com/" target="_blank" title="Version Control System">Git</a> |
 				<a href="https://www.sourcetreeapp.com/" target="_blank" title="GUI Version Control System">SourceTree</a> |

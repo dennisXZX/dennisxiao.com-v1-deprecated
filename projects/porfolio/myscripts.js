@@ -35,8 +35,9 @@ $( document ).ready(function () {
     // jQuery for page scrolling feature - requires jQuery Easing plugin in an animate() call
     $('body').on('click', 'a.scrollable', function (event) {
 
-        // $(this).attr('href') gets the value of href, for example, #portfolio
-        // $("#portfolio").offset().top gets the top property of the section
+        // $(this).attr('href') returns "#top", "#portfolio" or "#contact", which is the href attribute of the clicked link
+        // $("#top").offset().top returns the top position of the anchor link
+        // finally use animate() to scroll to that position
         $('html, body').stop().animate({
             scrollTop: $($(this).attr('href')).offset().top
         }, 1500, 'easeInOutExpo');

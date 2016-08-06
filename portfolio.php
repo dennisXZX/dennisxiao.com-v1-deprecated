@@ -19,7 +19,7 @@
 
 					<h1 class="pageHeadline">Previous Achievements <i class="fa fa-thumbs-o-up" aria-hidden="true"></i></h1>
 
-					<p class="aboutContent">I have worked on over 50 sites over the years. Many of them are long gone or have been replaced. Here are a few that have yet to bite the dust.</p>
+					<p class="aboutContent">I have worked on 50+ sites over the years. Many of them are long gone or have been replaced. Here are a few that have yet to bite the dust.</p>
 
 					<p class="aboutContent">2010 - 2016 @ Study Group</p>
 
@@ -35,15 +35,24 @@
 
 					<a href="http://www.189mv.cn/" target="_blank">YXT Movie</a>
 
+                    <hr />
+                    
 					<h1 class="pageHeadline">Gadget Collection <i class="fa fa-gamepad" aria-hidden="true"></i></h1>
 
 					<p class="aboutContent" style="margin-bottom: 20px;">All the gadgets that I made during my journey to become a better web & app developer.</p>
 
+					<p class="aboutContent">FOR THE WEB</p>
+
 					<div class="flexContainer">
 
 						<div class="portfolioItem">
+							<div><a href="./projects/calculator/calculator.html" target="_blank">JS Calculator</a></div>
+							<div>Javascript</div>
+						</div>
+
+						<div class="portfolioItem">
 							<div><a href="./projects/weather/weather.html" target="_blank">Local Weather Report</a></div>
-							<div>Bootstrap, Angular 1 </div>
+							<div>Bootstrap, Angular 1</div>
 						</div>
 
 						<div class="portfolioItem">
@@ -58,7 +67,7 @@
 						
 						<div class="portfolioItem">
 							<div><a href="./projects/porfolio/dennisxiao.html" target="_blank">Portfolio Page</a></div>
-							<div>Bootstrap, ScrollSpy, Animate.CSS, JQuery, jQuery Easing</div>
+							<div>Bootstrap, JQuery, ScrollSpy</div>
 						</div>							
 
 						<div class="portfolioItem">
@@ -87,6 +96,17 @@
 						</div>
 
 					</div> <!-- end of portfolio container -->
+
+                    <p class="aboutContent">FOR THE ANDROID</p>
+
+					<div class="flexContainer">
+
+                        <div class="portfolioItem">
+                            <div><a href="https://github.com/dennisboys/DXPuzzle" target="_blank">DXPuzzle</a></div>
+                            <div>Java</div>
+                        </div>
+
+                    </div>
 
 				</div>
 
