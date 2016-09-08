@@ -28,6 +28,7 @@
 				<a href="http://www.aptana.com/" target="_blank"><strike>Aptana</strike></a> |
 				<a href="https://www.jetbrains.com/idea/" target="_blank">Intellij</a> |
 				<a href="https://www.jetbrains.com/pycharm/" target="_blank">PyCharm</a> |
+				<a href="https://www.visualstudio.com/en-us/products/visual-studio-express-vs.aspx" target="_blank">Visual Studio Express</a> |
 
 				<div class="category">Editor</div>				
 				<a href="https://www.sublimetext.com/" target="_blank">Sublime</a>  
@@ -82,6 +83,7 @@
 				<a href="https://developers.google.com/speed/pagespeed/insights/" target="_blank" title="Test Page Speed">PageSpeed Insights</a> |
 				<a href="https://filezilla-project.org/" target="_blank" title="Free FTP solution">Filezilla</a> |
 				<a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/" target="_blank" title="Free SSH and Telnet client">PuTTY</a> |
+				<a href="https://jsonplaceholder.typicode.com/" target="_blank" title="Free SSH and Telnet client">JSONPlaceholder</a> |
 
 				<!-- Android Development Toolkit -->
 				<h4 class="subHeadline">Android Development</h4>
