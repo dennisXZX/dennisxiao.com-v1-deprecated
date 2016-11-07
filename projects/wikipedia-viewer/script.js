@@ -8,6 +8,7 @@ $( document ).ready(function() {
     var $searchButton = $("#searchButton");
     var $searchWord = $("#searchWord");
     var $searchResult = $("#searchResult");
+    var $feelingLucky = $("#feelingLucky");
 
     // attach a button handler to the search button
     $searchButton.on("click", function () {
@@ -22,6 +23,11 @@ $( document ).ready(function() {
             verifySearchTerm();
             processData();
         }
+    });
+
+    // register a button handler to the feeling lucky button
+    $feelingLucky.on("click", function () {
+
     });
 
     // check if the search term is empty
