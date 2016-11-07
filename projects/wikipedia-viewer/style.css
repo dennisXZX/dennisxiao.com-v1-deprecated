@@ -1,0 +1,28 @@
+html {
+    background-color: #99b1cc;
+}
+
+#container {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    margin: 50px auto 0;
+}
+
+#searchWord {
+    width: 85%;
+    margin-bottom: 20px;
+}
+
+#search {
+    width: 150px;
+}
+
+#searchResult {
+    text-align: left;
+}
+
+li {
+    text-decoration: none;
+    margin: 15px 0;
+}
