@@ -25,11 +25,6 @@ $( document ).ready(function() {
         }
     });
 
-    // register a button handler to the feeling lucky button
-    $feelingLucky.on("click", function () {
-
-    });
-
     // check if the search term is empty
     function verifySearchTerm() {
         if($("#searchWord").val() == ""){
@@ -47,20 +42,21 @@ $( document ).ready(function() {
         $.ajax({
             type: 'GET',
             url: 'https://crossorigin.me/https://en.wikipedia.org/w/api.php?format=json&action=query&generator=search&gsrnamespace=0&gsrlimit=10&prop=pageimages|extracts&pilimit=max&exintro&explaintext&exsentences=1&exlimit=max&gsrsearch=' + searchTerm,
-            success: function (data) {
+        }).then(function (data) { // success
 
-                console.log(data);
+            // empty the list
+            $searchResult.empty();
 
-                // empty the list
-                $searchResult.empty();
+            // process the data
+            $.each(data['query']['pages'], function (i, item) {
+                var listElement = "<li><a target='_blank' href='https://en.wikipedia.org/?curid=" + item['pageid'] + "'>" + item['title'] + " - " + item['extract'] + "</a></li>";
+                $searchResult.append(listElement);
+            });
 
-                // process the data
-                $.each(data['query']['pages'], function (i, item) {
-                    var listElement = "<li><a target='_blank' href='https://en.wikipedia.org/?curid=" + item['pageid'] + "'>" + item['title'] + " - " + item['extract'] + "</a></li>";
-                    $searchResult.append(listElement);
-                });
-            }
+        }, function (errcode, errmsg) { // error
+            console.log(errcode, errmsg);
         });
+
     }
 
 });
